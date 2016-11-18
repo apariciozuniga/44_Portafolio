@@ -1,0 +1,152 @@
+
+.nina{
+  width:20%;
+
+}
+
+.banner{
+	background-image: url(../imagen/banner3.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position:  center;
+	overflow: hidden;
+	z-index: 0;
+  min-height: 1000px;
+
+}
+.banner2{
+  background-image: url(../imagen/103.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  overflow: hidden;
+  z-index: 0;
+  min-height: 1000px;
+
+}
+#nombre{
+  font-size: 3em;
+  font-family: 'Delius', cursive;
+  font-weight: lighter;
+  text-align: center;
+  color:white;
+}
+
+*{
+ font-family: 'Delius', cursive;
+  font-size: 1.1em;
+  font-weight: lighter;
+}
+.fondo2{
+  background-color: #40528F;
+  border: 1px dotted white;
+  color: white;
+  font-size: .9em;
+
+}
+.barras{
+  color: #777;
+  background-color: white;
+  padding: 50px 80px;
+  text-align: justify;
+  text-align: center;
+  min-height: 600px;
+
+}
+.fondo{
+  background-color:#BF8A5E;
+  border: 1px dotted #BE774C;
+  padding: -1%;
+  margin-bottom: 4%;
+  color: white;
+  font-size: .9em;
+}
+footer{
+  padding: 1.5%;
+  font-size: .7em;
+  font-family: 'Delius', cursive;
+  font-weight: lighter;
+  text-align: center;
+  color:white;
+
+}
+/*parallax de proyectos*/
+.Banner2{
+  background-image: url(../imagen/52.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  opacity: 2;
+  background-position:  center 0px;
+  overflow: hidden;
+  z-index: 0;
+  min-height: 500px;
+}
+.frase{
+  position: relative;
+  color:#ddd;
+  background-color: #282E34;
+  text-align: center;
+  text-align: justify;
+}
+
+.bere{
+  width: 60%;
+  height: 69%;
+  margin-left: 20%;
+}
+
+
+h3{
+  font-size:1.5em;
+  font-family: 'cursive';
+  font-weight: lighter;
+  font-weight: bold;
+
+}
+
+
+.color{
+  color:#47C9C3;
+}
+
+/*MEDIAQUERIES*/
+
+/*mediaqueries de nina para que cuando este en tamaño small se vea chica*/
+@media screen and (max-width: 480px) {
+    .nina {
+      width:10%; 
+
+    }
+}
+@media screen and (max-width: 600px) {
+    .nina {
+      width:10%; 
+
+    }
+}
+@media screen and (max-width: 530px) {
+    .nina {
+      width:10%; 
+
+    }
+}
+@media screen and (max-width: 770px) {
+    .nina {
+      width:10%; 
+
+    }
+}
+/*medias para mis iconos*/
+@media screen and (max-width: 480px) {
+    .iconos{
+      width: 20%;
+      height:20%;
+      display: inline-block;
+    }
+}
+
+
